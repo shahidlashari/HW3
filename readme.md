@@ -26,5 +26,5 @@ Initially,I didn't really know where to start and I was slightly overwhelmed wit
 
 I was able to solve each of my problems ultimately through persistent efforts and looking at online resources!
 
-![image](https://user-images.githubusercontent.com/61823648/77620750-46faae80-6ef8-11ea-94e6-2731902a6102.png)
+![image](https://user-images.githubusercontent.com/61823648/77621277-5dedd080-6ef9-11ea-9296-1dffa153fcf4.png)
 
