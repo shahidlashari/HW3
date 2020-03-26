@@ -1,7 +1,7 @@
 <html>
 
 <head>
- 
+
 </head>
 
 <body>
@@ -28,30 +28,31 @@
 
 <script>
   window.addEventListener('load', function () {
-    var plength = prompt("How many characters would you like your password to be?");
 
-    while (plength < 8 || plength > 128) {
-      plength = prompt("Length must be 8-128 characters. How many characters would you like your password to be?");
-    }
-
-    var cuppercase = confirm("Would you like to use uppercase letters?");
-    var clowercase = confirm("Would you like to use lowercase letters?");
-    var cnumbers = confirm("would you like to use numbers?");
-    var csymbols = confirm("would you like to use special characters?");
-
-    while (!(cuppercase || clowercase || cnumbers || csymbols)) {
-      alert("You must select at least one character type!");
-
-      cuppercase = confirm("Would you like to use uppercase letters?");
-      clowercase = confirm("Would you like to use lowercase letters?");
-      cnumbers = confirm("would you like to use numbers?");
-      csymbols = confirm("would you like to use special characters?");
-    }
 
     //DOM elements
     const resultEl = document.getElementById('password');
 
     document.getElementById('generate').addEventListener('click', () => {
+      var plength = prompt("How many characters would you like your password to be?");
+
+      while (plength < 8 || plength > 128) {
+        plength = prompt("Length must be 8-128 characters. How many characters would you like your password to be?");
+      }
+
+      var cuppercase = confirm("Would you like to use uppercase letters?");
+      var clowercase = confirm("Would you like to use lowercase letters?");
+      var cnumbers = confirm("would you like to use numbers?");
+      var csymbols = confirm("would you like to use special characters?");
+
+      while (!(cuppercase || clowercase || cnumbers || csymbols)) {
+        alert("You must select at least one character type!");
+
+        cuppercase = confirm("Would you like to use uppercase letters?");
+        clowercase = confirm("Would you like to use lowercase letters?");
+        cnumbers = confirm("would you like to use numbers?");
+        csymbols = confirm("would you like to use special characters?");
+      }
       resultEl.value = generatePassword(clowercase, cuppercase, cnumbers, csymbols, plength);
     });
 
@@ -72,14 +73,14 @@
     });
   });
 
-
+ // random 
   const randomFunc = {
     lower: getRandomLower,
     upper: getRandomUpper,
     number: getRandomNumber,
     symbol: getRandomSymbol
   };
-
+// Generator functions
   function generatePassword(lower, upper, number, symbol, length) {
     let generatedPassword = '';
     const typesCount = lower + upper + number + symbol;
@@ -106,7 +107,7 @@
     return finalPassword;
   }
 
-  // Generator functions
+  // ASCII table 
   function getRandomLower() {
     return String.fromCharCode(Math.floor(Math.random() * 26) + 97);
   }
