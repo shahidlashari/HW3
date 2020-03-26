@@ -26,5 +26,5 @@ Initially,I didn't really know where to start and I was slightly overwhelmed wit
 
 I was able to solve each of my problems ultimately through persistent efforts and looking at online resources!
 
-![special charactor prompt]
-(https://github.com/shahidlashari/HW3/screenshots/Specilal charactor prompt.jpg)
+![image](https://user-images.githubusercontent.com/61823648/77620750-46faae80-6ef8-11ea-94e6-2731902a6102.png)
+
