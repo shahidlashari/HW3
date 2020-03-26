@@ -2,6 +2,7 @@ Random Password Generator
 
 URL Links:
 https://github.com/shahidlashari/HW3
+https://shahidlashari.github.io/HW3/
 
 Description:
 
