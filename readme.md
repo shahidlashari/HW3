@@ -2,6 +2,7 @@ Random Password Generator
 
 URL Links:
 https://github.com/shahidlashari/HW3
+
 https://shahidlashari.github.io/HW3/
 
 Description:
@@ -11,11 +12,11 @@ The password generator and the website is done through HTML, CSS, and Javascript
 
 Technologies:
 
-HTML
-CSS 
-Javascript
-Bootstrap
-Visual Studio Code
+. HTML
+. CSS
+. Javascript
+. Bootstrap
+. Visual Studio Code
 
 Challenges:
 
