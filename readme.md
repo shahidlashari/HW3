@@ -1,7 +1,7 @@
 Random Password Generator
 
 URL Links:
-
+https://github.com/shahidlashari/HW3
 
 Description:
 
@@ -23,4 +23,3 @@ It was a challenging homework criteria was to use alerts/confirms/prompts as wel
 Initially,I didn't really know where to start and I was slightly overwhelmed with numerous thoughts, however ,I started my pseudo-code .I went through lecture videos and also looking through a couple of password generator examples online in order to understand javascript code.
 
 I was able to solve each of my problems ultimately through persistent efforts and looking at online resources!
-!
